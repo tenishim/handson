@@ -1,4 +1,4 @@
-create or replace table `your_project_id.ga.fa_users_201809` as
+create or replace table ga.fa_users_201809 as
 select
   user_pseudo_id
 , max(session_start) = 1 as single
